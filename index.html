@@ -1,17 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Color Switcher</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
-    <!--  font awesome cdn link   -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-</head>
-<body>
-<div class = "container">
-    <h1>Color Switcher</h1>
-</div>
+    <link rel="stylesheet" href="styles.css" />
 
-</body>
+    <!--  font awesome cdn link   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="color-switcher">
+      <div class="color-switcher-btn">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <h3>select color</h3>
+
+      <div class="theme-buttons-container">
+        <span
+          class="theme-buttons"
+          data-color="#8e44ad"
+          style="background: #8e44ad"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#2980b9"
+          style="background: #2980b9"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#f39c12"
+          style="background: #f39c12"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#27ae60"
+          style="background: #27ae60"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#ea2027"
+          style="background: #ea2027"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#e84393"
+          style="background: #e84393"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#ff4757"
+          style="background: #ff4757"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#ffc312"
+          style="background: #ffc312"
+        ></span>
+        <span
+          class="theme-buttons"
+          data-color="#17c0eb"
+          style="background: #17c0eb"
+        ></span>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Color Switcher</h1>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
 </html>
